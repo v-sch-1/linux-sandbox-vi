@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Ask the user for a number
+echo "Enter a number between 1 and 4:"
+read number
+
+# Output a nice message based on the number
+if [[ $number -eq 1 ]]; then
+    echo "You are mean"
+elif [[ $number -eq 2 ]]; then
+    echo "the number of brain cells you have"
+elif [[ $number -eq 3 ]]; then
+    echo "sooo creative (sarcastic)"
+elif [[ $number -eq 4 ]]; then
+	echo "bro you suck"
+else
+    echo "That's not a number between 1 and 4, but you already knew that!"
+fi

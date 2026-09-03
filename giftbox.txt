@@ -14,6 +14,6 @@ elif [[ $number -eq 3 ]]; then
 elif [[ $number -eq 4 ]]; then
 	echo "Tomorrow will be better"
 else
-    echo "That's not a number between 1 and 3, but you're still awesome!"
+    echo "That's not a number between 1 and 4, but you're still awesome!"
 fi
 
